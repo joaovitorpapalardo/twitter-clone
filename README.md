@@ -2,7 +2,7 @@
 
 Este é um clone simplificado do Twitter, desenvolvido em **PHP** utilizando um **mini framework MVC**.  
 O projeto inclui funcionalidades de autenticação, publicação de tweets, listagem de usuários, seguir e deixar de seguir, além de exibir uma timeline personalizada.
-Foi criado como projeto no curso de desenvolvimento web completo na Udemy, pelo instrutor Jorge Sant Ana e Jamilton Damasceno.
+Foi criado como projeto no curso de desenvolvimento web completo na Udemy, com os instrutores Jorge Sant Ana e Jamilton Damasceno.
 
 ---
 

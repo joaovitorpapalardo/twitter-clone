@@ -20,24 +20,24 @@ Foi criado como projeto no curso de desenvolvimento web completo na Udemy, pelo 
 ---
 
 ## 📁 Estrutura do Projeto
-├── App/
-│ ├── Controllers/ # Controladores (AuthController, IndexController, AppController)
-│ ├── Models/ # Modelos (Usuario.php, Tweet.php)
-│ ├── Views/ # Views (.phtml: timeline, cadastro, inscreverse, etc.)
-│ └── Route.php # Rotas da aplicação
-│
-├── public/ # Arquivos públicos acessíveis via navegador
-│ ├── index.php # Ponto de entrada do sistema
-│ └── css/style.css # Estilos da aplicação
-│
-├── vendor/
-│ └── MF
-│ ├── Action.php
-│ ├── Bootstrap.php
-│ ├── Container.php
-│ └── Model.php
-│
-├── Connection.php # Conexão com o banco (usar placeholders ou .env para segurança)
-├── composer.json # Configuração do Composer
-├── composer.lock # Travamento das dependências
-└── README.md # Este arquivo
+├── App/  
+│ ├── Controllers/ # Controladores (AuthController, IndexController, AppController)  
+│ ├── Models/ # Modelos (Usuario.php, Tweet.php)  
+│ ├── Views/ # Views (.phtml: timeline, cadastro, inscreverse, etc.)  
+│ └── Route.php # Rotas da aplicação  
+│  
+├── public/ # Arquivos públicos acessíveis via navegador  
+│ ├── index.php # Ponto de entrada do sistema  
+│ └── css/style.css # Estilos da aplicação  
+│  
+├── vendor/  
+│ └── MF  
+│ ├── Action.php  
+│ ├── Bootstrap.php  
+│ ├── Container.php  
+│ └── Model.php  
+│  
+├── Connection.php # Conexão com o banco (usar placeholders ou .env para segurança)  
+├── composer.json # Configuração do Composer  
+├── composer.lock # Travamento das dependências  
+└── README.md # Este arquivo  

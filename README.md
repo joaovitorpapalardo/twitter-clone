@@ -23,8 +23,9 @@ Foi criado como projeto no curso de desenvolvimento web completo na Udemy, pelo 
 ├── App/  
 │ ├── Controllers/ # Controladores (AuthController, IndexController, AppController)  
 │ ├── Models/ # Modelos (Usuario.php, Tweet.php)  
-│ ├── Views/ # Views (.phtml: timeline, cadastro, inscreverse, etc.)  
+│ ├── Views/ # Views (.phtml: timeline, cadastro, inscreverse, index, layout.)  
 │ └── Route.php # Rotas da aplicação  
+│ └── Connection.php # Conexão com o banco  
 │  
 ├── public/ # Arquivos públicos acessíveis via navegador  
 │ ├── index.php # Ponto de entrada do sistema  
@@ -36,8 +37,28 @@ Foi criado como projeto no curso de desenvolvimento web completo na Udemy, pelo 
 │ ├── Bootstrap.php  
 │ ├── Container.php  
 │ └── Model.php  
+│ └── Autoload.php
 │  
-├── Connection.php # Conexão com o banco (usar placeholders ou .env para segurança)  
-├── composer.json # Configuração do Composer  
-├── composer.lock # Travamento das dependências  
 └── README.md # Este arquivo  
+
+## Arquitetura MVC
+O projeto utiliza o padrão **MVC (Model-View-Controller)**:
+
+- **Model (Modelo)** → Gerencia os dados e interage com o banco (ex: `Usuario.php`, `Tweet.php`).
+- **View (Visão)** → Responsável pela interface (arquivos `.phtml`).
+- **Controller (Controlador)** → Processa requisições, coordena o fluxo e retorna as views (ex: `AuthController.php`, `IndexController.php`).
+
+**Vantagens do MVC:**
+- Organização e clareza no código.
+- Separação de responsabilidades.
+- Facilidade para manutenção e expansão.
+- Reuso de código e layouts.
+
+---
+
+## ⚙️ Requisitos
+
+- PHP >= 7.0
+- Composer
+- Servidor web local (Apache, Nginx ou o embutido do PHP)
+- Banco de dados MySQL/MariaDB
